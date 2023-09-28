@@ -23,13 +23,13 @@
 	<repository>
 		<id>nexus</id>
 		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://52.90.107.170:8081/repository/ashokit-release-repo/</url>
+		<url>http://54.163.71.34:8081/repository/ashokit-release-repo/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://52.90.107.170:8081/repository/ashokit-snapshot-repo/</url>
+		<url>http://54.163.71.34:8081/repository/ashokit-snapshot-repo/</url>
 	</snapshotRepository>
 	
   </distributionManagement>
