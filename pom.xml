@@ -17,19 +17,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+	  <sonar.host.url>http://54.161.86.85:9000/</sonar.host.url>
+	<sonar.login>e0a6115d722a229e7140fdb131513795ec5c9909</sonar.login>
   </properties>
  <distributionManagement>  
 
 	<repository>
 		<id>nexus</id>
 		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://54.163.71.34:8081/repository/ashokit-release-repo/</url>
+		<url>http://52.66.159.14:8081/repository/ashokit-release-repo//</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://54.163.71.34:8081/repository/ashokit-snapshot-repo/</url>
+		<url>http://52.66.159.14:8081/repository/ashokit-snapshot-repo//</url>
 	</snapshotRepository>
 	
   </distributionManagement>
